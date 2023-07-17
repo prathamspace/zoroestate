@@ -1,0 +1,166 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: transparent;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  top: 0;
+}
+header .navbar {
+  padding: 26px 17px;
+}
+header .logo {
+  width: 151px;
+  height: 151px;
+}
+header .logoContent {
+  text-transform: uppercase;
+}
+header .logoContent span {
+  display: block;
+  line-height: 1;
+  transition: font-size 0.3s ease;
+  font-weight: 500;
+  color: white;
+}
+header .logoContent .line1 {
+  font-size: 22.33px;
+  letter-spacing: 0.3em;
+}
+header .logoContent .line2 {
+  font-size: 50.25px;
+  letter-spacing: 0.03em;
+  margin-bottom: -4px;
+}
+header .logoContent .line3 {
+  font-size: 40.2px;
+  letter-spacing: 0.03em;
+}
+header .desktopNav {
+  display: flex;
+  flex-direction: row;
+}
+header .desktopNav .nav-item {
+  margin: 0px 35px;
+}
+header .desktopNav .nav-item .nav-link {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+}
+header .desktopNav .youtube {
+  margin: 0 35px;
+}
+header .youtube {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 269px;
+  height: 68px;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #000, var(--primary));
+  border-image-source: linear-gradient(to right, #fff, #d2232a);
+  background: transparent;
+  font-size: 15px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 35px;
+  height: 50px;
+  width: 163px;
+  margin-left: 62px;
+}
+header .offCanvasIcon {
+  width: 59px;
+  height: 59px;
+  border: 1px solid red;
+  outline: none;
+  background: transparent;
+  padding: 0 15px;
+  position: relative;
+  margin-left: 62px;
+  border-radius: 0px;
+}
+header .navbar-toggler-icon {
+  background-image: url("../img/menu.png");
+  width: 1.97em;
+  margin-left: -5px;
+}
+
+.stickyHeader {
+  background-color: white;
+}
+.stickyHeader .navbar {
+  padding: 0px 17px;
+}
+.stickyHeader .navbar .logo {
+  width: 67px;
+  height: 67px;
+}
+.stickyHeader .navbar .nav-item .nav-link {
+  color: black;
+}
+.stickyHeader .navbar .youtube {
+  border-image-source: linear-gradient(to right, #000, #000000);
+  color: black;
+}
+.stickyHeader .navbar .offCanvasIcon {
+  border-color: black;
+}
+.stickyHeader .navbar .navbar-toggler-icon {
+  background-image: url("../img/menu-dark.png");
+}
+
+.banner {
+  position: relative;
+  top: -108px;
+  z-index: -1;
+}
+.banner #bannerVideo {
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.banner .bannerContent {
+  position: absolute;
+  top: 358px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: auto;
+  padding: 20px;
+  z-index: 11111;
+  left: 38px;
+}
+.banner .bannerContent h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.banner .bannerContent .child1 {
+  font-size: 67px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 0.7;
+}
+.banner .bannerContent .child2 {
+  font-size: 67px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 0.7;
+}/*# sourceMappingURL=style.css.map */
